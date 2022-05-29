@@ -15,5 +15,6 @@
   "dependencies": {
     "cpy-cli": "^4.1.0",
     "rimraf": "^3.0.2"
-  }
+  },
+  "devDependencies": {}
 }

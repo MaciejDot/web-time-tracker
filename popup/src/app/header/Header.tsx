@@ -8,6 +8,7 @@ export default function Header(){
             <a>Weekly summary</a>
             <a>Monthly summary</a>
             <a>Custom length</a>
+            <a>settings</a>
             <p>Here is your timesheet of times spent on each site in last 24 hours</p>
         </header>
         <a>summary in circle</a>

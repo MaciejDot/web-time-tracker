@@ -1,0 +1,19 @@
+{
+  "name": "web-time-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "build:popup": "cd popup && npm run build && cd ..",
+    "clean": "rimraf build",
+    "build:all": "npm run build:popup",
+    "move:main": "cpy manifest.json build && cpy images build",
+    "move:popup": "cd popup/build && cpy static ../../build && cd .. && cpy build ../build/popup && cd ..",
+    "move:all": "npm run move:main && npm run move:popup",
+    "build": "npm run clean && npm run build:all && npm run move:all"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpy-cli": "^4.1.0",
+    "rimraf": "^3.0.2"
+  }
+}

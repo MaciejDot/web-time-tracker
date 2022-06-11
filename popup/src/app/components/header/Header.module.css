@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+}
+
+.activeButton{
+    background-color: white;
+    border-style: solid;
+    border-bottom-style: none;
+    border-width: 1px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: hsl(100, 0%, 25%);
+    border-color: hsl(100, 0%, 95%);
+}
+
+.activeButton:hover{
+    color: hsl(100, 0%, 50%);
+}
+
+
+.nonActiveButton{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    letter-spacing: 1px;
+    border-color: hsl(100, 0%, 95%);
+    cursor: pointer;
+    color: hsl(100, 0%, 25%);
+}
+
+.nonActiveButton:hover{
+    color: hsl(100, 0%, 50%);
+}
+
+
+

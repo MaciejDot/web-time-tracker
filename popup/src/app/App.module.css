@@ -1,4 +1,6 @@
 .app {
     font-family: Ubuntu;
-    margin: 0;background-color: hsl(100, 0%, 95%);overflow-x: hidden;
+    margin: 0;background-color: hsl(100, 0%, 95%);overflow: hidden;
+    padding: 4px;
+    height: 100%;
 }
